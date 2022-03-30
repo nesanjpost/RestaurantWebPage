@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 100px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f4b136;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+
+}
+.text-box{
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 62px;
+    margin-bottom: 40px;
+}
+
+ .fa{
+    color: #f4b136;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;   
+}
+
+.book-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-left: 20px;
+    
+}
+.book-btn:hover{
+    border: 1px solid rgb(37, 35, 35);
+    /* background: rgb(37, 35, 35); */
+    background: rgb(0, 0, 0,.55);
+}
+
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 40px;
+    }
+    .nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 5px 8px;
+        position: relative;
+        color: #fff;
+        font-size: 10px;
+        font-family: 'Poppins', sans-serif;
+    }
+    nav.fa{
+        color: #f4b136;
+        margin: 0 5px;
+        cursor: pointer;
+        padding: 10px 0;   
+    }
+    nav img{
+        width: 80px;
+    }
+}
+
+.food-row{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(223, 221, 221);
+    padding-left: 20px;
+}
+.food-col{
+   
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 40px 12px;
+    margin-right: 10px;
+    text-align: center;
+    margin: 50px 50px;
+    
+}
+
+.food-col img{
+    height: auto;
+}
+
+.food-col1 img{
+    margin: 50px 50px;;
+}
+
+
+
+p{
+    font-size: 18px;
+    font-weight: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+.food-col h1{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    font-size: 40px;
+    color: #e68a00;
+}
+
+@media(max-width: 800px){
+
+    .food-row{
+       
+        background: rgb(223, 221, 221);
+        padding-left: 20px;
+        flex-direction: column;
+    }
+    .food-col{
+        
+        border-radius: 10px;
+        padding: 40px 12px;
+        text-align: center;
+        
+    }
+    .food-col1 img{
+        width: 75vh;
+    }
+    
+    
+    p{
+        font-size: 18px;
+        font-weight: 200px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    
+    
+    .food-col h1{
+        text-align: center;
+        font-weight: 600;
+        margin: 10px 0;
+        font-size: 40px;
+        color: #e68a00;
+    }
+}
+
+.innerimg{
+    min-height: auto;
+    width: 100%;  
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    display: flex;
+}
+
+.transparent{
+    margin: 200px 40px;
+    padding: 50px;
+    position: absolute;
+    bottom: 2;
+    right: 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .65);
+    
+}
+.transparent h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.banner{
+    display: flex;
+    position: relative;
+    margin: 40px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.img1 .img2 .img3{
+    flex: 1;
+    
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+.menu{
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.menu-group-heading{
+    margin: 0;
+    padding-bottom: 1em;
+    
+    font-size: 40px;
+}
+
+.menu-group  {
+    font-size: 20px;
+    
+}
+
+.table{
+    border-radius: 1px solid #e68a00 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
